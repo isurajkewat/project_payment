@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    </style>
+    <style>
+        body {
+            background-color: rgb(227, 114, 195);
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Prompt', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            margin-left: 35px;
+        .p1{
+            color: rgb(250, 17, 17);
+            text-align: center;
+            text-decoration: underline;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <form action=""></form>
+    <h1 class="p1">PAYMENT FORM :-</h1>
+    <p>Required Fields are followed by *</p>
+    <h2>Contact Information </h2>
+    <p> * Name: <input type="text" name="name" required placeholder="suraj kewat"></p>
+    <fieldset>
+        <p>
+
+            <legend>Gender</legend>
+            Male <input type="radio" name="gender" id="Male">
+            Female <input type="radio" name="gender" id="Female">
+
+        </p>
+    </fieldset>
+    <p> * Address: <textarea name="address" id="address" cols="50" rows="5"></textarea></p>
+    <p>Email: <input type="email" name="email" id="email" placeholder="gmail.com"></p>
+    <p>pincode: <input type="number" name="pincode" id="pincode" placeholder="enter pin"></p>
+    <p>contact number: <input type="number" name="number" id="number" placeholder="enter mobile no."></p>
+    <hr>
+    <h2> * Payment Information</h2>
+    <p>Card Type: *
+        <select name="card_type" id="card_type" required>
+            <option value="">--Select a Card Type--</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">Master Card</option>
+        </select>
+    </p>
+    <p>
+        Card Number <input type="number" name="card_number" id="card_number" placeholder="4560*****5409">
+    </p>
+    <p>
+        Expiration Date: <input type="date" name="exp_date" id="exp_date">
+    </p>
+    <p>CVV <input type="password" name="CVV" id="CVV" 9*9></p>
+    <input type="submit" value="Pay Now">
+
+
+</body>
+
+</html>
